@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0404288626B549020020D1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404288526B549020020D1D0 /* AppDelegate.swift */; };
+		0404288826B549020020D1D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404288726B549020020D1D0 /* SceneDelegate.swift */; };
+		0404288A26B549020020D1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404288926B549020020D1D0 /* ViewController.swift */; };
+		0404288D26B549020020D1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404288B26B549020020D1D0 /* Main.storyboard */; };
+		0404288F26B549050020D1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404288E26B549050020D1D0 /* Assets.xcassets */; };
+		0404289226B549050020D1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404289026B549050020D1D0 /* LaunchScreen.storyboard */; };
+		0404289D26B549060020D1D0 /* YellowBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404289C26B549060020D1D0 /* YellowBusTests.swift */; };
+		040428A826B549060020D1D0 /* YellowBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040428A726B549060020D1D0 /* YellowBusUITests.swift */; };
+		040428BB26B549780020D1D0 /* StudentDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040428BA26B549780020D1D0 /* StudentDashboardViewController.swift */; };
+		040428C326B5499E0020D1D0 /* MyBookedSeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040428C226B5499E0020D1D0 /* MyBookedSeatsViewController.swift */; };
+		040428C826B549AB0020D1D0 /* BookSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040428C726B549AB0020D1D0 /* BookSeatViewController.swift */; };
+		040428D026B57AFC0020D1D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040428CF26B57AFC0020D1D0 /* GoogleService-Info.plist */; };
+		0415275626BDDE75008D20DA /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415275526BDDE74008D20DA /* SelectDateViewController.swift */; };
+		04617AD626B5CE800050328C /* StDashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04617AD526B5CE800050328C /* StDashboardTableViewCell.swift */; };
+		046A6BAF26E8832700C64F69 /* ConfirmBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A6BAE26E8832700C64F69 /* ConfirmBookingViewController.swift */; };
+		0495BAE526F0F7CC001B8FAD /* HubtelPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495BAE426F0F7CC001B8FAD /* HubtelPaymentViewController.swift */; };
+		049BA6EA26FC75C6002808DA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BA6E926FC75C6002808DA /* AboutViewController.swift */; };
+		04A77C3526B81C690086358D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A77C3426B81C690086358D /* SignInViewController.swift */; };
+		04A77C6C26B82E270086358D /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A77C6B26B82E270086358D /* SplashScreenViewController.swift */; };
+		04A77C7126B978AF0086358D /* SelectRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A77C7026B978AF0086358D /* SelectRouteViewController.swift */; };
+		04FC58F526BAA32D0004FA25 /* SeatBookedAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC58F426BAA32D0004FA25 /* SeatBookedAlertViewController.swift */; };
+		04FC58FA26BAEB010004FA25 /* MyBookedSeatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC58F926BAEB010004FA25 /* MyBookedSeatsTableViewCell.swift */; };
+		04FC590326BAFE210004FA25 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC590226BAFE210004FA25 /* LocationViewController.swift */; };
+		04FCEDAA2700BE14000BC5F2 /* DashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCEDA92700BE14000BC5F2 /* DashedView.swift */; };
+		10731FBC9E0A7FBD1D4A1FA9 /* Pods_YellowBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2527DDDAAFF60819096B47D5 /* Pods_YellowBus.framework */; };
+		6284BEBE8BC3B169710B9CF1 /* Pods_YellowBus_YellowBusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ABE8008C2DAFFF81523BF4 /* Pods_YellowBus_YellowBusUITests.framework */; };
+		6970A9ABA454FFA12EDA2913 /* Pods_YellowBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39010EDA99ABF3E64CA3D5E /* Pods_YellowBusTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0404289926B549060020D1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0404287A26B549020020D1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0404288126B549020020D1D0;
+			remoteInfo = YellowBus;
+		};
+		040428A426B549060020D1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0404287A26B549020020D1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0404288126B549020020D1D0;
+			remoteInfo = YellowBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0404288226B549020020D1D0 /* YellowBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0404288526B549020020D1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0404288726B549020020D1D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0404288926B549020020D1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0404288C26B549020020D1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0404288E26B549050020D1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0404289126B549050020D1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0404289326B549050020D1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0404289826B549060020D1D0 /* YellowBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0404289C26B549060020D1D0 /* YellowBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBusTests.swift; sourceTree = "<group>"; };
+		0404289E26B549060020D1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040428A326B549060020D1D0 /* YellowBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040428A726B549060020D1D0 /* YellowBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBusUITests.swift; sourceTree = "<group>"; };
+		040428A926B549060020D1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040428BA26B549780020D1D0 /* StudentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboardViewController.swift; sourceTree = "<group>"; };
+		040428C226B5499E0020D1D0 /* MyBookedSeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookedSeatsViewController.swift; sourceTree = "<group>"; };
+		040428C726B549AB0020D1D0 /* BookSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSeatViewController.swift; sourceTree = "<group>"; };
+		040428CF26B57AFC0020D1D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Subs/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0415275526BDDE74008D20DA /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		04617AD526B5CE800050328C /* StDashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StDashboardTableViewCell.swift; sourceTree = "<group>"; };
+		046A6BAE26E8832700C64F69 /* ConfirmBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingViewController.swift; sourceTree = "<group>"; };
+		0495BAE426F0F7CC001B8FAD /* HubtelPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubtelPaymentViewController.swift; sourceTree = "<group>"; };
+		0495BAE626F20E42001B8FAD /* YellowBus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YellowBus.entitlements; sourceTree = "<group>"; };
+		049BA6E926FC75C6002808DA /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		04A77C3426B81C690086358D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		04A77C6B26B82E270086358D /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		04A77C7026B978AF0086358D /* SelectRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteViewController.swift; sourceTree = "<group>"; };
+		04FC58F426BAA32D0004FA25 /* SeatBookedAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatBookedAlertViewController.swift; sourceTree = "<group>"; };
+		04FC58F926BAEB010004FA25 /* MyBookedSeatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookedSeatsTableViewCell.swift; sourceTree = "<group>"; };
+		04FC590226BAFE210004FA25 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		04FCEDA92700BE14000BC5F2 /* DashedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedView.swift; sourceTree = "<group>"; };
+		2176AC8C34D427310660F034 /* Pods-YellowBus-YellowBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBus-YellowBusUITests.debug.xcconfig"; path = "Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2527DDDAAFF60819096B47D5 /* Pods_YellowBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EC4FAA40C76EE22DFDCB51 /* Pods-YellowBusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBusTests.debug.xcconfig"; path = "Target Support Files/Pods-YellowBusTests/Pods-YellowBusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D9DC4DC47113050483869D9 /* Pods-YellowBus-YellowBusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBus-YellowBusUITests.release.xcconfig"; path = "Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77B32F97E17337BCFC304A36 /* Pods-YellowBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBus.release.xcconfig"; path = "Target Support Files/Pods-YellowBus/Pods-YellowBus.release.xcconfig"; sourceTree = "<group>"; };
+		8E30A74EC13D3BD857712921 /* Pods-YellowBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBusTests.release.xcconfig"; path = "Target Support Files/Pods-YellowBusTests/Pods-YellowBusTests.release.xcconfig"; sourceTree = "<group>"; };
+		A39010EDA99ABF3E64CA3D5E /* Pods_YellowBusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D23D87F135723A09ABBFEA /* Pods-YellowBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBus.debug.xcconfig"; path = "Target Support Files/Pods-YellowBus/Pods-YellowBus.debug.xcconfig"; sourceTree = "<group>"; };
+		C7ABE8008C2DAFFF81523BF4 /* Pods_YellowBus_YellowBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBus_YellowBusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0404287F26B549020020D1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10731FBC9E0A7FBD1D4A1FA9 /* Pods_YellowBus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404289526B549060020D1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6970A9ABA454FFA12EDA2913 /* Pods_YellowBusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040428A026B549060020D1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6284BEBE8BC3B169710B9CF1 /* Pods_YellowBus_YellowBusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0404287926B549020020D1D0 = {
+			isa = PBXGroup;
+			children = (
+				0404288426B549020020D1D0 /* YellowBus */,
+				0404289B26B549060020D1D0 /* YellowBusTests */,
+				040428A626B549060020D1D0 /* YellowBusUITests */,
+				0404288326B549020020D1D0 /* Products */,
+				33BE6D9A90166BB3573E99DB /* Pods */,
+				D0002B63A1A40999DE36C736 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0404288326B549020020D1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0404288226B549020020D1D0 /* YellowBus.app */,
+				0404289826B549060020D1D0 /* YellowBusTests.xctest */,
+				040428A326B549060020D1D0 /* YellowBusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0404288426B549020020D1D0 /* YellowBus */ = {
+			isa = PBXGroup;
+			children = (
+				04FCEDA82700BE00000BC5F2 /* Utils */,
+				0495BAE626F20E42001B8FAD /* YellowBus.entitlements */,
+				040428CF26B57AFC0020D1D0 /* GoogleService-Info.plist */,
+				04FC58FE26BAFAEE0004FA25 /* location */,
+				040428B926B549420020D1D0 /* student */,
+				040428B826B5492E0020D1D0 /* signIn */,
+				0404288526B549020020D1D0 /* AppDelegate.swift */,
+				0404288726B549020020D1D0 /* SceneDelegate.swift */,
+				0404288926B549020020D1D0 /* ViewController.swift */,
+				0404288B26B549020020D1D0 /* Main.storyboard */,
+				0404288E26B549050020D1D0 /* Assets.xcassets */,
+				0404289026B549050020D1D0 /* LaunchScreen.storyboard */,
+				0404289326B549050020D1D0 /* Info.plist */,
+				04A77C6B26B82E270086358D /* SplashScreenViewController.swift */,
+				049BA6E926FC75C6002808DA /* AboutViewController.swift */,
+			);
+			path = YellowBus;
+			sourceTree = "<group>";
+		};
+		0404289B26B549060020D1D0 /* YellowBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				0404289C26B549060020D1D0 /* YellowBusTests.swift */,
+				0404289E26B549060020D1D0 /* Info.plist */,
+			);
+			path = YellowBusTests;
+			sourceTree = "<group>";
+		};
+		040428A626B549060020D1D0 /* YellowBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040428A726B549060020D1D0 /* YellowBusUITests.swift */,
+				040428A926B549060020D1D0 /* Info.plist */,
+			);
+			path = YellowBusUITests;
+			sourceTree = "<group>";
+		};
+		040428B826B5492E0020D1D0 /* signIn */ = {
+			isa = PBXGroup;
+			children = (
+				04A77C3426B81C690086358D /* SignInViewController.swift */,
+			);
+			path = signIn;
+			sourceTree = "<group>";
+		};
+		040428B926B549420020D1D0 /* student */ = {
+			isa = PBXGroup;
+			children = (
+				040428BA26B549780020D1D0 /* StudentDashboardViewController.swift */,
+				040428C226B5499E0020D1D0 /* MyBookedSeatsViewController.swift */,
+				040428C726B549AB0020D1D0 /* BookSeatViewController.swift */,
+				04617AD526B5CE800050328C /* StDashboardTableViewCell.swift */,
+				04A77C7026B978AF0086358D /* SelectRouteViewController.swift */,
+				04FC58F426BAA32D0004FA25 /* SeatBookedAlertViewController.swift */,
+				04FC58F926BAEB010004FA25 /* MyBookedSeatsTableViewCell.swift */,
+				0415275526BDDE74008D20DA /* SelectDateViewController.swift */,
+				046A6BAE26E8832700C64F69 /* ConfirmBookingViewController.swift */,
+				0495BAE426F0F7CC001B8FAD /* HubtelPaymentViewController.swift */,
+			);
+			path = student;
+			sourceTree = "<group>";
+		};
+		04FC58FE26BAFAEE0004FA25 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				04FC590226BAFE210004FA25 /* LocationViewController.swift */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		04FCEDA82700BE00000BC5F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04FCEDA92700BE14000BC5F2 /* DashedView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33BE6D9A90166BB3573E99DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D23D87F135723A09ABBFEA /* Pods-YellowBus.debug.xcconfig */,
+				77B32F97E17337BCFC304A36 /* Pods-YellowBus.release.xcconfig */,
+				2176AC8C34D427310660F034 /* Pods-YellowBus-YellowBusUITests.debug.xcconfig */,
+				6D9DC4DC47113050483869D9 /* Pods-YellowBus-YellowBusUITests.release.xcconfig */,
+				61EC4FAA40C76EE22DFDCB51 /* Pods-YellowBusTests.debug.xcconfig */,
+				8E30A74EC13D3BD857712921 /* Pods-YellowBusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0002B63A1A40999DE36C736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2527DDDAAFF60819096B47D5 /* Pods_YellowBus.framework */,
+				C7ABE8008C2DAFFF81523BF4 /* Pods_YellowBus_YellowBusUITests.framework */,
+				A39010EDA99ABF3E64CA3D5E /* Pods_YellowBusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0404288126B549020020D1D0 /* YellowBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040428AC26B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBus" */;
+			buildPhases = (
+				DBE33268087A50FBBF9C22D1 /* [CP] Check Pods Manifest.lock */,
+				0404287E26B549020020D1D0 /* Sources */,
+				0404287F26B549020020D1D0 /* Frameworks */,
+				0404288026B549020020D1D0 /* Resources */,
+				44A2A829CA262AC8AB11F749 /* [CP] Embed Pods Frameworks */,
+				E19EBEF90CD6103A2142491E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YellowBus;
+			productName = YellowBus;
+			productReference = 0404288226B549020020D1D0 /* YellowBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0404289726B549060020D1D0 /* YellowBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040428AF26B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBusTests" */;
+			buildPhases = (
+				77663276D44E79096384139C /* [CP] Check Pods Manifest.lock */,
+				0404289426B549060020D1D0 /* Sources */,
+				0404289526B549060020D1D0 /* Frameworks */,
+				0404289626B549060020D1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0404289A26B549060020D1D0 /* PBXTargetDependency */,
+			);
+			name = YellowBusTests;
+			productName = YellowBusTests;
+			productReference = 0404289826B549060020D1D0 /* YellowBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040428A226B549060020D1D0 /* YellowBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040428B226B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBusUITests" */;
+			buildPhases = (
+				06D7EE962603FA670AABDABE /* [CP] Check Pods Manifest.lock */,
+				0404289F26B549060020D1D0 /* Sources */,
+				040428A026B549060020D1D0 /* Frameworks */,
+				040428A126B549060020D1D0 /* Resources */,
+				1DF9506EFD933A7987727D60 /* [CP] Embed Pods Frameworks */,
+				84B2AF5765863D877885A6D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040428A526B549060020D1D0 /* PBXTargetDependency */,
+			);
+			name = YellowBusUITests;
+			productName = YellowBusUITests;
+			productReference = 040428A326B549060020D1D0 /* YellowBusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0404287A26B549020020D1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0404288126B549020020D1D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					0404289726B549060020D1D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0404288126B549020020D1D0;
+					};
+					040428A226B549060020D1D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0404288126B549020020D1D0;
+					};
+				};
+			};
+			buildConfigurationList = 0404287D26B549020020D1D0 /* Build configuration list for PBXProject "YellowBus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0404287926B549020020D1D0;
+			productRefGroup = 0404288326B549020020D1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0404288126B549020020D1D0 /* YellowBus */,
+				0404289726B549060020D1D0 /* YellowBusTests */,
+				040428A226B549060020D1D0 /* YellowBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0404288026B549020020D1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404289226B549050020D1D0 /* LaunchScreen.storyboard in Resources */,
+				040428D026B57AFC0020D1D0 /* GoogleService-Info.plist in Resources */,
+				0404288F26B549050020D1D0 /* Assets.xcassets in Resources */,
+				0404288D26B549020020D1D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404289626B549060020D1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040428A126B549060020D1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D7EE962603FA670AABDABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBus-YellowBusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF9506EFD933A7987727D60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A2A829CA262AC8AB11F749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77663276D44E79096384139C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B2AF5765863D877885A6D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YellowBus-YellowBusUITests/Pods-YellowBus-YellowBusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE33268087A50FBBF9C22D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19EBEF90CD6103A2142491E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YellowBus/Pods-YellowBus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0404287E26B549020020D1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A77C7126B978AF0086358D /* SelectRouteViewController.swift in Sources */,
+				040428C826B549AB0020D1D0 /* BookSeatViewController.swift in Sources */,
+				0404288A26B549020020D1D0 /* ViewController.swift in Sources */,
+				04A77C6C26B82E270086358D /* SplashScreenViewController.swift in Sources */,
+				040428BB26B549780020D1D0 /* StudentDashboardViewController.swift in Sources */,
+				040428C326B5499E0020D1D0 /* MyBookedSeatsViewController.swift in Sources */,
+				04A77C3526B81C690086358D /* SignInViewController.swift in Sources */,
+				0495BAE526F0F7CC001B8FAD /* HubtelPaymentViewController.swift in Sources */,
+				04FC590326BAFE210004FA25 /* LocationViewController.swift in Sources */,
+				04FCEDAA2700BE14000BC5F2 /* DashedView.swift in Sources */,
+				049BA6EA26FC75C6002808DA /* AboutViewController.swift in Sources */,
+				0415275626BDDE75008D20DA /* SelectDateViewController.swift in Sources */,
+				046A6BAF26E8832700C64F69 /* ConfirmBookingViewController.swift in Sources */,
+				0404288626B549020020D1D0 /* AppDelegate.swift in Sources */,
+				04FC58FA26BAEB010004FA25 /* MyBookedSeatsTableViewCell.swift in Sources */,
+				04FC58F526BAA32D0004FA25 /* SeatBookedAlertViewController.swift in Sources */,
+				04617AD626B5CE800050328C /* StDashboardTableViewCell.swift in Sources */,
+				0404288826B549020020D1D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404289426B549060020D1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0404289D26B549060020D1D0 /* YellowBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0404289F26B549060020D1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040428A826B549060020D1D0 /* YellowBusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0404289A26B549060020D1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0404288126B549020020D1D0 /* YellowBus */;
+			targetProxy = 0404289926B549060020D1D0 /* PBXContainerItemProxy */;
+		};
+		040428A526B549060020D1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0404288126B549020020D1D0 /* YellowBus */;
+			targetProxy = 040428A426B549060020D1D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0404288B26B549020020D1D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0404288C26B549020020D1D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0404289026B549050020D1D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0404289126B549050020D1D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040428AA26B549060020D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040428AB26B549060020D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040428AD26B549060020D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D23D87F135723A09ABBFEA /* Pods-YellowBus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YellowBus/YellowBus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5NJ7NTGXV;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YellowBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		040428AE26B549060020D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B32F97E17337BCFC304A36 /* Pods-YellowBus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YellowBus/YellowBus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5NJ7NTGXV;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = YellowBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		040428B026B549060020D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EC4FAA40C76EE22DFDCB51 /* Pods-YellowBusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowBusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowBus.app/YellowBus";
+			};
+			name = Debug;
+		};
+		040428B126B549060020D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E30A74EC13D3BD857712921 /* Pods-YellowBusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowBusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowBus.app/YellowBus";
+			};
+			name = Release;
+		};
+		040428B326B549060020D1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2176AC8C34D427310660F034 /* Pods-YellowBus-YellowBusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowBusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowBus;
+			};
+			name = Debug;
+		};
+		040428B426B549060020D1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9DC4DC47113050483869D9 /* Pods-YellowBus-YellowBusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowBusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowbus.YellowBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowBus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0404287D26B549020020D1D0 /* Build configuration list for PBXProject "YellowBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040428AA26B549060020D1D0 /* Debug */,
+				040428AB26B549060020D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040428AC26B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040428AD26B549060020D1D0 /* Debug */,
+				040428AE26B549060020D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040428AF26B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040428B026B549060020D1D0 /* Debug */,
+				040428B126B549060020D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040428B226B549060020D1D0 /* Build configuration list for PBXNativeTarget "YellowBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040428B326B549060020D1D0 /* Debug */,
+				040428B426B549060020D1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0404287A26B549020020D1D0 /* Project object */;
+}
